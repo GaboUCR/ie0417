@@ -30,3 +30,60 @@
 *.exe
 *.out
 *.app
+
+# === Python Specific ===
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Distribution / packaging
+.Python
+dist/
+build/
+*.egg-info/
+*.egg
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Pytest cache
+.pytest_cache/
+
+# MyPy cache
+.mypy_cache/
+
+# Coverage reports
+.coverage
+*.cover
+*.py,cover
+
+# Logs and temporary files
+*.log
+*.temp
+*.bak
+
+# === C Specific ===
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+Makefile
+cmake_install.cmake
+
+# Debug files
+*.dSYM/
+*.gcda
+*.gcno
+*.gcov
+
+# Other temporary files
+*.swp
+*.swo
+*~
+.DS_Store
